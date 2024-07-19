@@ -15,8 +15,12 @@
 4. Добавление курсов и возможность присваивания им лекций и тестов
 ![изображение](https://github.com/user-attachments/assets/17454042-8d07-425d-8ea8-f49b9f69c775)
 ![изображение](https://github.com/user-attachments/assets/49561749-3309-498e-91da-09300f7f6279)
+
 Отображение на странице обучения
+
 ![изображение](https://github.com/user-attachments/assets/514a5cc3-43de-4032-8f98-b15cf6b352a7)
+
 Тесты
+
 ![изображение](https://github.com/user-attachments/assets/07fad040-9cc9-4faa-a7b9-658087492691)
 ![изображение](https://github.com/user-attachments/assets/a9be9df2-f996-458b-88d4-74059b63e993)
