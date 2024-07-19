@@ -1,0 +1,119 @@
+body > h1 {
+    color: #185c8f;
+    margin: 10px 175px;
+}
+
+/* manual-main */
+
+.manual-main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 25px;
+    margin: 10px 175px;
+}
+
+.chapters-sidebar {
+    position: sticky;
+    top: 10px;
+    border: 3px solid #185c8f;
+    border-radius: 10px;
+}
+
+.chapters-sidebar > ol {
+    margin: 10px 20px;
+    padding-left: 0px;
+    list-style: none;
+    counter-reset: num;
+}
+
+.chapters-sidebar > ol > li {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.chapters-sidebar > ol > li:before {
+    white-space: nowrap;
+    content: counter(num);
+    counter-increment: num;
+    margin-right: 10px;
+    background-color: #185c8f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.chapter a, #selected-chapter a, .subchapter a, #selected-subchapter a {
+    white-space: nowrap;
+    transition: all 0.1s;
+    padding: 3px 5px;
+}
+
+.chapters-sidebar a {
+    color: #185c8f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.chapter:hover a, .subchapter:hover a {
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.subchapters {
+    list-style: none;
+    margin: 10px 0;
+    counter-reset: subchapters;
+}
+
+.subchapters > li {
+    margin: 15px 0;
+    line-height: 120%;
+}
+
+.subchapters > li:before {
+    white-space: nowrap;
+    content: counter(num) ' . ' counter(subchapters);
+    counter-increment: subchapters;
+    margin-right: 10px;
+    color: #185c8f;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.content {
+    padding: 0 10px;
+    overflow-wrap: break-word;
+    display: none;
+}
+
+.content p {
+    font-size: 22px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.active-content {
+    display: block;
+}
+
+/* manual-main */
+
+
+#selected-chapter > a, #selected-subchapter a {
+    color: #185c8f;
+    border-radius: 10px;
+    border: 2px solid #185c8f;
+}
+
+#selected-chapter:hover a, #selected-subchapter:hover a {
+    border-radius: 10px;
+}

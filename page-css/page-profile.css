@@ -1,0 +1,251 @@
+.user-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.course-create, .delete-user {
+    height: 50px;
+    background-color: #185c8f;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.course-create:hover, .delete-user:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.user-information {
+    margin: 20px 400px;
+}
+
+.user-information > div {
+    padding: 25px;
+}
+
+.user-not-found {
+    color: #185c8f;
+    font-weight: 800;
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.user-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 5px 4px 0px 0px rgba(34, 60, 80, 0.2);
+    border: 2px solid rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+}
+
+.user-avatar img {
+    border-radius: 10px;
+}
+
+
+/* modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 40%;
+    background-color: white;
+    border: 5px solid #185c8f;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+form {
+    border-radius: 10px;
+    min-width: 500px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    color: white;
+    background-color: #185c8f;
+    font-size: 20px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+.course-submit input {
+    font-weight: 600;
+    transition: background-color 0.1s ease-in;
+}
+
+.course-submit input:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+select {
+    background-color: #185c8f;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    font-weight: 600;
+    border-radius: 10px;
+    display: grid;
+}
+
+.select::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: white;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+.description-textarea {
+    min-height: 200px;
+    color: white;
+    background-color: #185c8f;
+    font-size: 20px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    resize: none;
+}
+
+.meta-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.meta-columns p {
+    margin: 0;
+}
+
+.select-row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.select-row label {
+    margin: 0;
+}
+
+.delete-user {
+    width: auto;
+}
+
+.trajectory > h1 {
+    text-align: center;
+    color: #185c8f;
+}
+
+.trajectory {
+    display: flex;
+    flex-direction: column;
+    margin: 0 400px 30px 400px;
+}
+
+table {
+    border: solid black 1px;
+}
+
+th {
+    border: solid black 2px;
+    padding: 5px;
+}
+
+tbody > tr:nth-child(1) {
+    background-color: #185c8f;
+    color: white;
+}
+
+.link-col a {
+    display: block;
+    text-decoration: none;
+}
+
+.link-col a, .link-col a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+.row-red {
+    background-color: red;
+    color: white;
+}
+
+.row-red a, .row-red a:visited {
+    color: #00ffff;
+}
+
+.row-green {
+    background-color: green;
+    color: white;
+}
+
+.row-green a, .row-green a:visited {
+    color: #ff7fff;
+}
+
+.olympiads-participation {
+    display: flex;
+    flex-direction: column;
+    margin: 0 400px 30px 400px;
+}
+
+.olympiads-participation > h1 {
+    text-align: center;
+    color: #185c8f;
+}
+
+.olympiads-participation > .olympiads-list a, .olympiads-participation > .olympiads-list a:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: blue;
+}
+
+.olympiads-participation > .olympiads-list p {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #185c8f;
+}

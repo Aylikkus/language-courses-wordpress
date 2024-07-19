@@ -1,0 +1,37 @@
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin: 25px 250px;
+}
+
+.abot-text {
+    display: grid;
+}
+
+.about-text > h1 {
+    color: #185c8f;
+}
+
+.about-text > div {
+    display: grid;
+    grid-gap: 0;
+}
+
+.about-text > p {
+    text-align: justify;
+}
+
+div.about-text p {
+    color: #185c8f;
+    font-weight: 500;
+}
+
+
+.about > img {
+    width: 99%;
+    height: 99%;
+    border-radius: 10px;
+    border: 2px solid #185c8f;
+}

@@ -1,0 +1,132 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0px 200px;
+    padding: 10px;
+}
+
+/* search-results */
+
+
+
+/* search-results */
+
+/* filters */
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 2px solid #185c8f;
+	border-radius: 10px;
+    padding: 10px;
+}
+
+
+.level-radio-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+    font-size: 18px;
+    color: #185c8f;
+    margin: 10px 0;
+}
+
+.form-radio input[type=radio] {
+}
+
+.form-radio label {
+    display: inline-block;
+	cursor: pointer;
+	padding: 1px 5px;
+	line-height: 34px;
+	border-radius: 10px;
+    font-weight: 500;
+	user-select: none;
+    text-align: center;
+
+    transition: all 0.3s;
+}
+
+.form-radio input[type=radio]:checked + label {
+    background: #185c8f;
+    color: white;
+}
+
+.form-radio label:hover {
+    background: gray;
+    color: white;
+}
+
+.numbers-form {
+    margin: 15px 0;
+}
+
+.numbers-form label {
+    color: #185c8f;
+    font-weight: 500;
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+}
+
+.numbers-form input {
+    border: none;
+    color: white;
+    background-color: #185c8f;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 0 5px;
+    appearance: textfield;
+}
+
+.select {
+    margin: 10px 0px;
+    width: 100%;
+    background-color: #185c8f;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    font-weight: 600;
+    border-radius: 10px;
+    display: grid;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search-input input {
+    color: white;
+    background-color: #185c8f;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-input button {
+    color: #185c8f;
+    background-color: transparent;
+    border: 2px solid #185c8f;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    transition: all 0.2s ease-in;
+}
+
+.search-input button:hover {
+    color: white;
+    background-color: #185c8f;
+    font-weight: 600;
+    cursor: pointer;
+}

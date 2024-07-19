@@ -1,0 +1,96 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'TildaSans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+body p {
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+body a {
+    color: #185c8f;
+    font-weight: 600;
+}
+
+form {
+    padding: 5px 20px;
+    border: 5px solid #185c8f;
+    border-radius: 10px;
+    min-width: 500px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    color: white;
+    background-color: #185c8f;
+    font-size: 20px;
+    padding-left: 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.login-remember input {
+    width: 25px;
+}
+
+.login-submit, .registration-submit {
+    text-align: center;
+}
+
+.form-radio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-radio label {
+    display: inline-block;
+}
+
+.form-radio input {
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+}
+
+.button {
+    border: none;
+    background-color: #185c8f;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    transition: background-color 0.1s ease-in;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+.failed-login {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.no-profile-msg {
+    text-align: center;
+}
