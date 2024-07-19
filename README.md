@@ -24,3 +24,6 @@
 
 ![изображение](https://github.com/user-attachments/assets/07fad040-9cc9-4faa-a7b9-658087492691)
 ![изображение](https://github.com/user-attachments/assets/a9be9df2-f996-458b-88d4-74059b63e993)
+
+5. История прохождения тестов с рекоммендациями по дальнейшему обучению в зависимости от правильных ответов на тесты, для каждого пользователя
+![изображение](https://github.com/user-attachments/assets/f19e7bfb-d087-4d9a-8374-1caab8d229b1)
